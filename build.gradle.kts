@@ -74,6 +74,9 @@ repositories {
     maven("https://repo.spongepowered.org/maven/")
     // If you don't want to log in with your real minecraft account, remove this line
     maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
+
+    mavenCentral()
+    maven("https://jitpack.io/")
 }
 
 val shadowImpl: Configuration by configurations.creating {
@@ -96,6 +99,8 @@ dependencies {
     // If you don't want to log in with your real minecraft account, remove this line
     runtimeOnly("me.djtheredstoner:DevAuth-forge-legacy:1.2.1")
 
+    // Commands Support
+    implementation("com.github.Stivais:Commodore:{version}")
 }
 
 // Tasks:
