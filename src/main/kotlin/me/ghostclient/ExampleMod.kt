@@ -1,4 +1,4 @@
-package com.github.meeth-w.ghostclient
+package me.ghostclient
 
 import net.minecraft.client.Minecraft
 import net.minecraft.init.Blocks
@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import net.minecraft.client.renderer.GlStateManager
 
 @Mod(modid = "ghostclient", useMetadata = true)
-class ExampleMod {
+class   ExampleMod {
     @Mod.EventHandler
     fun init(event: FMLInitializationEvent) {
         try {

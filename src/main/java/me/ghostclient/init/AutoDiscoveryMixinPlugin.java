@@ -1,4 +1,4 @@
-package com.github.meeth-w.ghostclient.init;
+package me.ghostclient.init;
 
 import org.spongepowered.asm.lib.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
