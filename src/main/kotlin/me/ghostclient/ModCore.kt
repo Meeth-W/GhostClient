@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import net.minecraft.client.renderer.GlStateManager
 
 @Mod(modid = "ghostclient", useMetadata = true)
-class   ExampleMod {
+class   ModCore {
     @Mod.EventHandler
     fun init(event: FMLInitializationEvent) {
         try {
